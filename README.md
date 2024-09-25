@@ -1,7 +1,7 @@
 # Seismic Activity Characteristics in Sichuan-Yunnan Region Revealed by Big Data Analysis
 
 ### Description
-This document presents three distinct big data visualization methods for earthquake catalog data, effectively illustrating the relationships among magnitude, frequency, occurrence time, and epicenter location within large-scale earthquake catalog datasets.
+This document presents three distinct big data visualization methods for earthquake catalog data, effectively illustrating the relationships among magnitude, frequency, occurrence time, and epicenter location within large-scale earthquake datasets.
 
 A brief comparison of the advantages and disadvantages of different earthquake catalog visualization approaches is summarized in the table below:
 
@@ -57,7 +57,7 @@ A brief comparison of the advantages and disadvantages of different earthquake c
 13. Xianshuihe-Anninghe-Zemuhe-Xiaojiang Fault
 14. China-Burma Fault
 
-*(Fault Data Source: [Link](https://210.72.25.135/cfm3d/achievement/achievements-list/190-2023-12-15-08-43-16))*
+*(Fault Data Source: [Follow this link](http://www.cses.ac.cn/sjcp/ggmx/2024/609.shtml))*
 
 ## 4. M-F Plot
 <p align="center">
@@ -66,7 +66,7 @@ A brief comparison of the advantages and disadvantages of different earthquake c
 </p>
 
 ## 5. M-F Plot Based on RBF Kernel Function
-This plot measures the damage degree of earthquakes of varying magnitudes, employing a visual characterization scheme using Gaussian kernel functions based on M-F diagrams.
+This plot assesses the damage caused by earthquakes of varying magnitudes, utilizing a visual characterization scheme based on Gaussian kernel functions derived from M-F diagrams.
 
 ### 5.1 Function
 <p align="center">
@@ -90,23 +90,24 @@ This plot measures the damage degree of earthquakes of varying magnitudes, emplo
   M-T Hotmap
 </p>
 
-## 7. Comprehensive 3D View
-This video integrates over 420,000 earthquake entries of magnitudes 1.0 and above from the Sichuan-Yunnan region, spanning from 1970 to 2020. It includes data on more than 160 three-dimensional active faults, high-precision topographic information, community velocity models, the depth of the Moho surface, and crustal deformation models, elucidating the seismic activity characteristics in this region over the past fifty years.  
+## 7. Comprehensive 3D Animation
+This video integrates over 420,000 earthquake entries of magnitudes 1.0 and above from the Sichuan-Yunnan region, covering the period from 1970 to 2020. It includes data on more than 160 three-dimensional active faults, high-precision topographic information, community velocity models, and the depth of the Moho surface, elucidating the seismic activity characteristics in this region over the past fifty years.  
+
 [![Watch the video](https://img.youtube.com/vi/QSehgiGvUxA/maxresdefault.jpg)](https://youtu.be/3_mQAKlumz4?si=m6luMTRibVXmUQL6)
-*(Complete 3D Visualization Video: [Link](https://youtu.be/3_mQAKlumz4?si=m6luMTRibVXmUQL6))*
+*(Complete 3D Visualization Video: [Visit on YouTube](https://youtu.be/3_mQAKlumz4?si=m6luMTRibVXmUQL6))*
 
 ## How to Use
 ### 1. Installation
 
 ### 1.1 Clone the Repository
-First, clone the repository to your local machine:
+Clone the repository to your local machine:
 ```bash
 git clone https://github.com/peixyhe/seismic-catalog_vis_demo.git
 cd seismic-catalog_vis_demo-master
 ```
 
 ### 1.2 Create a Conda Environment
-This project relies on several libraries, which are installed via the `environment.yml` file. Key dependencies include:
+This project relies on several libraries, which can be installed via the `environment.yml` file. Key dependencies include:
 - **VTK**: For 3D visualization and rendering.
 - **Pandas**: For data manipulation and analysis.
 - **NumPy**: For numerical operations.
@@ -121,7 +122,7 @@ conda activate seismic_vis_env
 ```
 
 ### 1.3 Usage
-Run the desired script. If there are any unclear areas, please refer to the comments about the main function in each script. For example:
+Run the desired script. If there are any unclear areas, please refer to the comments regarding the main function in each script. For example:
 
 #### Example 1: 3D Earthquake Catalog Scatter Plot
 ```bash
@@ -133,7 +134,7 @@ This command inputs an earthquake catalog CSV file and outputs a PNG result and 
 ```bash
 python ./src/MT_hotmap_vis.py ./rawData/CENC_catalog_1970-2020.csv
 ```
-This command also inputs an earthquake catalog CSV file, outputting a PNG result and a VTK file.
+This command also inputs an earthquake catalog CSV file, generating a PNG result and a VTK file.
 
 ## Citation
 If this work is useful to you, please cite the following source: He Pei et al., "Seismic Activity Characteristics in Sichuan-Yunnan Region Revealed by Big Data Analysis." This work is currently under review, and specific publication details will be provided upon acceptance.
