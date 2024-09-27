@@ -65,7 +65,7 @@ A brief comparison of the advantages and disadvantages of different earthquake c
   M-F Plot
 </p>
 
-## 5. M-F Plot Based on RBF Kernel Function
+## 5. M-F Plot Based on RBF Kernel
 This plot assesses the damage caused by earthquakes of varying magnitudes, utilizing a visual characterization scheme based on Gaussian kernel functions derived from M-F diagrams.
 
 ### 5.1 Function
