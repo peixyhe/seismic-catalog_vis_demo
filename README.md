@@ -1,6 +1,6 @@
 # Seismic Activity Characteristics in Sichuan-Yunnan Region Revealed by Big Data Analysis
 
-### Description
+### 0. Description
 This document presents three distinct big data visualization methods for earthquake catalog data, effectively illustrating the relationships among magnitude, frequency, occurrence time, and epicenter location within large-scale earthquake datasets.
 
 A brief comparison of the advantages and disadvantages of different earthquake catalog visualization approaches is summarized in the table below:
@@ -8,13 +8,13 @@ A brief comparison of the advantages and disadvantages of different earthquake c
 | **Method**                         | **Earthquake Frequency**   | **Occurrence Time**        | **Epicenter Location**      | **Magnitude**              | **Seismic Hazard**         |
 | :--------------------------------- | :------------------------: | :------------------------: | :-------------------------: | :------------------------: | :------------------------: |
 | **Traditional Methods**            |                            |                            |                             |                            |                            |
-| 2D/3D Scatter Plot                 |           ○ (shaded)       |                            |              ✕              |              ✓            |              ✕              |
-| M-T Plot                           |           ○ (shaded)       |              ✓             |              ✕              |        ○ (shaded)         |              ✕              |
-| Heat Map                           |             ○              |                            |              ✕              |              ○            |              ✕              |
-| **Methods in This Paper**          |                            |                            |                             |                           |                            |
+| 2D/3D Scatter Plot                 |           ○ (shaded)       |             ✕              |              ✓             |         ○ (shaded)         |              ✕             |
+| M-T Plot                           |           ○ (shaded)       |              ✓             |              ✕             |         ○ (shaded)         |              ✕              |
+| Heat Map                           |           ○ (shaded)       |              ✕             |              ✓             |         ○ (shaded)         |              ✕              |
+| **Methods in This Paper**          |                            |                            |                             |                            |                            |
 | M-F Plot                           |             ✓              |              ✕            |              ✓              |              ✓            |              ✕              |
-| M-F Plot Based on RBF Kernel       |             ✓              |              ✓            |              ✓              |              ○            |              ✕              |
-| Improved M-T Plot                  |             ✓              |              ✓            |              ✕              |              ✓            |              ✕              |
+| M-F Plot Based on RBF Kernel       |             ✓              |              ✕            |              ✓              |              ○ (shaded)    |              ✓              |
+| Improved M-T Plot                  |             ✓              |              ✓            |              ✕              |              ✓             |              ✕              |
 
 **Note:** &nbsp; ✓: Definitely represented &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ○: Optionally represented &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ✘: Not represented
 
