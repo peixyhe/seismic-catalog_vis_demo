@@ -5,16 +5,16 @@ This document presents three distinct big data visualization methods for earthqu
 
 A brief comparison of the advantages and disadvantages of different earthquake catalog visualization approaches is summarized in the table below:
 
-| Method                     | Earthquake Frequency | Occurrence Time | Epicenter Location | Magnitude       | Seismic Hazard  |
-|----------------------------|----------------------|-----------------|--------------------|-----------------|-----------------|
-| **Traditional Methods**     |                      |                 |                    |                 |                 |
-| 2D/3D Scatter Plot          | ○ (shaded)           | ✘               | ✓                  | ○ (shaded)      | ✘               |
-| M-T Plot                    | ○ (shaded)           | ✓               | ✘                  | ○ (shaded)      | ✘               |
-| Heat Map                    | ○                    | ✘               | ✓                  | ○               | ✘               |
-| **Methods in This Paper**   |                      |                 |                    |                 |                 |
-| M-F Plot                    | ✓                    | ✘               | ✓                  | ✓               | ✘               |
-| M-F Plot Based on RBF       | ✓                    | ✘               | ✓                  | ○               | ✓               |
-| Improved M-T Plot           | ✓                    | ✓               | ✘                  | ✓               | ✘               |
+| **Method**                         | **Earthquake Frequency**   | **Occurrence Time**        | **Epicenter Location**      | **Magnitude**              | **Seismic Hazard**         |
+| :--------------------------------- | :------------------------: | :------------------------: | :-------------------------: | :------------------------: | :------------------------: |
+| **Traditional Methods**            |                            |                            |                             |                            |                            |
+| 2D/3D Scatter Plot                 |           ○ (shaded)       |                            |              ✕              |              ✓            |              ✕              |
+| M-T Plot                           |           ○ (shaded)       |              ✓             |              ✕              |        ○ (shaded)         |              ✕              |
+| Heat Map                           |             ○              |                            |              ✕              |              ○            |              ✕              |
+| **Methods in This Paper**          |                            |                            |                             |                           |                            |
+| M-F Plot                           |             ✓              |              ✕            |              ✓              |              ✓            |              ✕              |
+| M-F Plot Based on RBF Kernel       |             ✓              |              ✓            |              ✓              |              ○            |              ✕              |
+| Improved M-T Plot                  |             ✓              |              ✓            |              ✕              |              ✓            |              ✕              |
 
 **Note:** &nbsp; ✓: Definitely represented &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ○: Optionally represented &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ✘: Not represented
 
@@ -78,10 +78,15 @@ This plot assesses the damage caused by earthquakes of varying magnitudes, utili
   Function Image
 </p>
 
-### 5.2 M-F Plot (1970-2020)
+### 5.2 Results
 <p align="center">
-  <img src="pic/pic4.png" alt="M-F plot" /><br />
-  M-F Plot
+  <img src="pic/pic4.png" alt="M-F Plot Based on RBF Kernel(1970-2020)" /><br />
+  M-F Plot Based on RBF Kernel(1970-2020)
+</p>
+
+<p align="center">
+  <img src="pic/pic5_d.png" alt="M-F Plot Based on RBF Kernel(2000-2010)" /><br />
+  M-F Plot Based on RBF Kernel(2000-2010)
 </p>
 
 ## 6. M-T Hotmap
