@@ -9,12 +9,12 @@ A brief comparison of the advantages and disadvantages of different earthquake c
 | :--------------------------------- | :------------------------: | :------------------------: | :-------------------------: | :------------------------: | :------------------------: |
 | **Traditional Methods**            |                            |                            |                             |                            |                            |
 | 2D/3D Scatter Plot                 |           ○ (shaded)       |             ✕              |              ✓             |         ○ (shaded)         |              ✕             |
-| M-T Plot                           |           ○ (shaded)       |              ✓             |              ✕             |         ○ (shaded)         |              ✕              |
-| Heat Map                           |           ○ (shaded)       |              ✕             |              ✓             |         ○ (shaded)         |              ✕              |
+| M-T Plot                           |           ○ (shaded)       |              ✓             |              ✕             |         ○ (shaded)         |              ✕             |
+| Heat Map                           |           ○                |              ✕             |              ✓             |         ○                  |              ✕             |
 | **Methods in This Paper**          |                            |                            |                             |                            |                            |
-| M-F Plot                           |             ✓              |              ✕            |              ✓              |              ✓            |              ✕              |
-| M-F Plot Based on RBF Kernel       |             ✓              |              ✕            |              ✓              |              ○ (shaded)    |              ✓              |
-| Improved M-T Plot                  |             ✓              |              ✓            |              ✕              |              ✓             |              ✕              |
+| M-F Plot                           |             ✓              |              ✕            |              ✓              |              ✓             |              ✕            |
+| M-F Plot Based on RBF Kernel       |             ✓              |              ✕            |              ✓              |              ○             |              ✓            |
+| Improved M-T Plot                  |             ✓              |              ✓            |              ✕              |              ✓             |              ✕            |
 
 **Note:** &nbsp; ✓: Definitely represented &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ○: Optionally represented &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ✘: Not represented
 
